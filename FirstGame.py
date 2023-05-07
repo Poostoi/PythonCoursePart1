@@ -41,7 +41,6 @@ while True:
                 size_cursor -= 3
 
     keys_mouse = pg.mouse.get_pressed();
-    keys_keyword = pg.key.get_pressed()
     if keys_mouse[0]:
         pg.draw.circle(
             display, array_colors[current_color], pg.mouse.get_pos(), size_cursor)
